@@ -1,4 +1,4 @@
-# Cinematic Portfolio
+# MY TEAM POM Portfolio
 
 A futuristic, interactive developer portfolio website built with Next.js, TypeScript, Tailwind CSS, Framer Motion, and React Three Fiber.
 
@@ -69,8 +69,7 @@ npm run dev
 The project is ready to be deployed on Vercel, Netlify, or any other platform that supports Next.js.
 
 ```bash
-npm run build
-npm start
+npm run dev
 ```
 
 ## License
