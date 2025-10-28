@@ -1,0 +1,64 @@
+{
+  "member": {
+    "id": "mike",
+    "name": "Mike Rodriguez",
+    "role": "DevOps Engineer",
+    "image": "👨‍🔧"
+  },
+  "skills": [
+    {
+      "id": "docker",
+      "name": "Docker",
+      "icon": "🐳",
+      "level": 95,
+      "description": "Containerization, multi-stage builds, optimization",
+      "position": { "x": 200, "y": 120 },
+      "connections": ["kubernetes", "ci-cd"]
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "icon": "☸️",
+      "level": 90,
+      "description": "Orchestration, scaling, service mesh, monitoring",
+      "position": { "x": 100, "y": 220 },
+      "connections": ["docker", "aws"]
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "icon": "☁️",
+      "level": 92,
+      "description": "EC2, EKS, Lambda, CloudFormation, IAM",
+      "position": { "x": 300, "y": 220 },
+      "connections": ["kubernetes", "monitoring"]
+    },
+    {
+      "id": "ci-cd",
+      "name": "CI/CD",
+      "icon": "🔄",
+      "level": 88,
+      "description": "GitHub Actions, Jenkins, automated deployment",
+      "position": { "x": 200, "y": 320 },
+      "connections": ["docker", "monitoring"]
+    },
+    {
+      "id": "monitoring",
+      "name": "Monitoring",
+      "icon": "📊",
+      "level": 85,
+      "description": "Prometheus, Grafana, ELK stack, alerting",
+      "position": { "x": 400, "y": 320 },
+      "connections": ["aws", "ci-cd"]
+    },
+    {
+      "id": "terraform",
+      "name": "Terraform",
+      "icon": "🏗️",
+      "level": 87,
+      "description": "Infrastructure as Code, state management",
+      "position": { "x": 500, "y": 120 },
+      "connections": ["aws", "kubernetes"]
+    }
+  ]
+}

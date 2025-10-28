@@ -1,0 +1,64 @@
+{
+  "member": {
+    "id": "sarah",
+    "name": "Sarah Johnson",
+    "role": "UI/UX Designer",
+    "image": "👩‍🎨"
+  },
+  "skills": [
+    {
+      "id": "figma",
+      "name": "Figma",
+      "icon": "🎨",
+      "level": 95,
+      "description": "Advanced prototyping, design systems, collaboration",
+      "position": { "x": 200, "y": 120 },
+      "connections": ["prototyping", "design-systems"]
+    },
+    {
+      "id": "user-research",
+      "name": "User Research",
+      "icon": "🔍",
+      "level": 88,
+      "description": "Interviews, usability testing, persona development",
+      "position": { "x": 100, "y": 220 },
+      "connections": ["figma", "wireframing"]
+    },
+    {
+      "id": "prototyping",
+      "name": "Prototyping",
+      "icon": "⚡",
+      "level": 90,
+      "description": "Interactive prototypes, user flows, animations",
+      "position": { "x": 300, "y": 220 },
+      "connections": ["figma", "wireframing"]
+    },
+    {
+      "id": "wireframing",
+      "name": "Wireframing",
+      "icon": "📐",
+      "level": 85,
+      "description": "Information architecture, user flows, low-fidelity design",
+      "position": { "x": 200, "y": 320 },
+      "connections": ["user-research", "prototyping"]
+    },
+    {
+      "id": "design-systems",
+      "name": "Design Systems",
+      "icon": "🎯",
+      "level": 87,
+      "description": "Component libraries, style guides, consistency",
+      "position": { "x": 400, "y": 320 },
+      "connections": ["figma", "prototyping"]
+    },
+    {
+      "id": "adobe-xd",
+      "name": "Adobe XD",
+      "icon": "💜",
+      "level": 82,
+      "description": "Advanced prototyping, auto-animate, voice design",
+      "position": { "x": 500, "y": 120 },
+      "connections": ["figma", "design-systems"]
+    }
+  ]
+}

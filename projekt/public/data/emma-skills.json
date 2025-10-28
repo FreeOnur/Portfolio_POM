@@ -1,0 +1,73 @@
+{
+  "member": {
+    "id": "emma",
+    "name": "Emma Wilson",
+    "role": "Mobile Developer",
+    "image": "👩‍💻"
+  },
+  "skills": [
+    {
+      "id": "react-native",
+      "name": "React Native",
+      "icon": "📱",
+      "level": 95,
+      "description": "Cross-platform development, performance optimization",
+      "position": { "x": 200, "y": 120 },
+      "connections": ["javascript", "ios"]
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter",
+      "icon": "🦋",
+      "level": 88,
+      "description": "Dart, UI/UX, state management, animations",
+      "position": { "x": 100, "y": 220 },
+      "connections": ["dart", "android"]
+    },
+    {
+      "id": "ios",
+      "name": "iOS Development",
+      "icon": "🍎",
+      "level": 85,
+      "description": "Swift, Xcode, App Store, native features",
+      "position": { "x": 300, "y": 220 },
+      "connections": ["react-native", "mobile-testing"]
+    },
+    {
+      "id": "android",
+      "name": "Android Development",
+      "icon": "🤖",
+      "level": 82,
+      "description": "Kotlin, Android Studio, Play Store, Material Design",
+      "position": { "x": 200, "y": 320 },
+      "connections": ["flutter", "mobile-testing"]
+    },
+    {
+      "id": "mobile-testing",
+      "name": "Mobile Testing",
+      "icon": "🧪",
+      "level": 80,
+      "description": "Unit tests, integration tests, E2E testing",
+      "position": { "x": 400, "y": 320 },
+      "connections": ["ios", "android"]
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "icon": "🟨",
+      "level": 90,
+      "description": "ES6+, async/await, modules, performance",
+      "position": { "x": 500, "y": 120 },
+      "connections": ["react-native", "dart"]
+    },
+    {
+      "id": "dart",
+      "name": "Dart",
+      "icon": "🎯",
+      "level": 85,
+      "description": "Flutter framework, async programming, null safety",
+      "position": { "x": 500, "y": 220 },
+      "connections": ["flutter", "javascript"]
+    }
+  ]
+}

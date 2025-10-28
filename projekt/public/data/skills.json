@@ -1,0 +1,76 @@
+{
+  "skills": [
+    {
+      "id": "frontend",
+      "name": "Frontend Development",
+      "icon": "💻",
+      "level": 95,
+      "description": "React, Next.js, TypeScript, Tailwind CSS",
+      "position": { "x": 200, "y": 100 },
+      "connections": ["ui-ux", "mobile"]
+    },
+    {
+      "id": "backend",
+      "name": "Backend Development",
+      "icon": "⚙️",
+      "level": 90,
+      "description": "Node.js, Python, PostgreSQL, Redis",
+      "position": { "x": 400, "y": 100 },
+      "connections": ["devops", "database"]
+    },
+    {
+      "id": "ui-ux",
+      "name": "UI/UX Design",
+      "icon": "🎨",
+      "level": 85,
+      "description": "Figma, Adobe Creative Suite, User Research",
+      "position": { "x": 100, "y": 200 },
+      "connections": ["frontend", "mobile"]
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile Development",
+      "icon": "📱",
+      "level": 80,
+      "description": "React Native, Flutter, iOS, Android",
+      "position": { "x": 300, "y": 200 },
+      "connections": ["frontend", "ui-ux"]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps & Cloud",
+      "icon": "☁️",
+      "level": 75,
+      "description": "AWS, Docker, Kubernetes, CI/CD",
+      "position": { "x": 500, "y": 200 },
+      "connections": ["backend", "database"]
+    },
+    {
+      "id": "database",
+      "name": "Database Design",
+      "icon": "🗄️",
+      "level": 85,
+      "description": "PostgreSQL, MongoDB, Redis, Database Optimization",
+      "position": { "x": 600, "y": 100 },
+      "connections": ["backend", "devops"]
+    },
+    {
+      "id": "ai-ml",
+      "name": "AI/ML",
+      "icon": "🤖",
+      "level": 70,
+      "description": "TensorFlow, PyTorch, OpenAI API, Computer Vision",
+      "position": { "x": 350, "y": 300 },
+      "connections": ["backend", "mobile"]
+    },
+    {
+      "id": "blockchain",
+      "name": "Blockchain",
+      "icon": "⛓️",
+      "level": 65,
+      "description": "Solidity, Web3, Ethereum, Smart Contracts",
+      "position": { "x": 150, "y": 300 },
+      "connections": ["frontend", "backend"]
+    }
+  ]
+}

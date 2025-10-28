@@ -1,0 +1,64 @@
+{
+  "member": {
+    "id": "alex",
+    "name": "Alex Chen",
+    "role": "Lead Developer",
+    "image": "👨‍💻"
+  },
+  "skills": [
+    {
+      "id": "react",
+      "name": "React",
+      "icon": "⚛️",
+      "level": 95,
+      "description": "Advanced React patterns, hooks, context, performance optimization",
+      "position": { "x": 200, "y": 120 },
+      "connections": ["typescript", "nextjs"]
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "icon": "📘",
+      "level": 90,
+      "description": "Advanced TypeScript, generics, decorators, type safety",
+      "position": { "x": 100, "y": 220 },
+      "connections": ["react", "nodejs"]
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "▲",
+      "level": 88,
+      "description": "App Router, SSR, SSG, API routes, optimization",
+      "position": { "x": 300, "y": 220 },
+      "connections": ["react", "aws"]
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "icon": "🟢",
+      "level": 85,
+      "description": "Express, Fastify, microservices, performance tuning",
+      "position": { "x": 200, "y": 320 },
+      "connections": ["typescript", "aws"]
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "icon": "☁️",
+      "level": 80,
+      "description": "Lambda, EC2, S3, RDS, CloudFront, deployment",
+      "position": { "x": 400, "y": 320 },
+      "connections": ["nextjs", "nodejs"]
+    },
+    {
+      "id": "architecture",
+      "name": "System Architecture",
+      "icon": "🏗️",
+      "level": 92,
+      "description": "Microservices, scalability, design patterns",
+      "position": { "x": 500, "y": 120 },
+      "connections": ["aws", "nodejs"]
+    }
+  ]
+}
